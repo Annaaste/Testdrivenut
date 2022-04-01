@@ -1,5 +1,7 @@
 name: run TDD java JUnit 5 test
-on: push
+on:
+  push:
+    branches: [ main ]
 jobs:
   run_tests:
     runs-on: ubuntu-latest
