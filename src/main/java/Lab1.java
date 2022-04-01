@@ -6,5 +6,6 @@ public class Lab1 {
         String greeting = "Jag heter " + name + " och är " + age + " år";
 
         return greeting;
+        //hej
     }
 }
